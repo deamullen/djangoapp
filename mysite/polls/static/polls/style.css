@@ -1,0 +1,82 @@
+li a {
+	color: #BDFEDB;
+}
+
+h1 a {
+    color: #FCA205;
+    font-family: 'Life Savers';
+    margin-bottom: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Life Savers';
+}
+
+body {
+    background: #2a2a2a;
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    color: white;
+}
+
+.page-header {
+    margin-top: 0;
+    margin-bottom: 0;
+    background: white url("images/grey-background.png") no-repeat right bottom;
+    line-height: 50px;
+    padding-left: 60px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title {
+	vertical-align: middle;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #41BA86;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.navbar-inverse {
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.navbar-brand {
+  background: url(images/world-logo.png) left / contain no-repeat;
+  width: 80px;
+  height: 45px;
+}
+
+html,body {
+		height:100%;
+		overflow: auto;
+}
+
+.footer {
+    margin-top: 50px;
+    color: #3c3c3c;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    line-height: 50px;
+    border-top: solid 1px #101010;
+    background-color: #90d5ee;
+} 
+
+.footer-text {
+		vertical-align: middle;
+		margin-bottom: 0px;
+}
+
+.container {
+	overflow: auto;
+}
+
+.pic-grid {
+	margin-bottom: 5px; 
+}
+
