@@ -24,9 +24,13 @@ body {
     margin-bottom: 0;
     background: white url("images/grey-background.png") no-repeat right bottom;
     line-height: 50px;
-    padding-left: 60px; 
+    padding-left: 5%;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.content-row {
+    padding: 0% 5%;
 }
 
 .title {
@@ -42,24 +46,25 @@ body {
 .navbar-inverse {
     padding-top: 5px;
     padding-bottom: 3px;
+    padding-left: 5%;
 }
 
 .navbar-brand {
-  background: url(images/world-logo.png) left / contain no-repeat;
-  width: 80px;
-  height: 45px;
+    background: url(images/world-logo.png) left / contain no-repeat;
+    width: 80px;
+    height: 45px;
 }
 
 html,body {
-		height:100%;
-		overflow: auto;
+	height:100%;
 }
 
 .footer {
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
     color: #3c3c3c;
     text-align: center;
-    position: absolute;
     width: 100%;
     left: 0;
     line-height: 50px;
@@ -68,15 +73,17 @@ html,body {
 } 
 
 .footer-text {
-		vertical-align: middle;
-		margin-bottom: 0px;
-}
-
-.container {
-	overflow: auto;
+	vertical-align: middle;
+	margin-bottom: 0px;
 }
 
 .pic-grid {
-	margin-bottom: 5px; 
+	padding-bottom: 8px;
+    padding-right: 0px;
+    padding-left: 10px;
 }
 
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
