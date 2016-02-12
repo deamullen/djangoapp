@@ -67,6 +67,7 @@ html,body {
     text-align: center;
     width: 100%;
     left: 0;
+    right: 0;
     line-height: 50px;
     border-top: solid 1px #101010;
     background-color: #90d5ee;
@@ -86,4 +87,5 @@ html,body {
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
+    overflow-x: hidden; 
 }
