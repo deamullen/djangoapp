@@ -10,6 +10,7 @@ h1 a {
 
 h1, h2, h3, h4 {
     font-family: 'Life Savers';
+    color: #D6F9EF;
 }
 
 body {
@@ -65,7 +66,6 @@ html,body {
     margin-left: 0px;
     color: #3c3c3c;
     text-align: center;
-    width: 100%;
     left: 0;
     right: 0;
     line-height: 50px;
@@ -88,4 +88,26 @@ html,body {
     padding-left: 0px;
     padding-right: 0px;
     overflow-x: hidden; 
+}
+
+.panel-body {
+    color: black;
+}
+
+.small-print {
+    font-size: 9px;
+    margin-bottom: 0px;
+}
+
+.panel-heading {
+    background-color: green;
+}
+
+.weather-panel {
+    background-color: #DDDDDD;
+    text-align: center;
+}
+
+.weather-panel h4 {
+    color: black;
 }
