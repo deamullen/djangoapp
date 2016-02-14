@@ -1,6 +1,11 @@
 {% load staticfiles %}
 <html>
 <head>
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+
     <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>-->
     <link rel="shortcut icon" type="image/x-icon" href="{% static 'polls/images/favicon.png' %}" />
     <link href='https://fonts.googleapis.com/css?family=Cabin|Merriweather|Droid+Serif|PT+Serif|Playfair+Display|Bitter|Oxygen|Noto+Serif|Life+Savers' rel='stylesheet' type='text/css' />
