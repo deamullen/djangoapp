@@ -111,3 +111,7 @@ html,body {
 .weather-panel h4 {
     color: black;
 }
+
+.pic-gallery {
+    padding-top: 25px;
+}
