@@ -84,6 +84,10 @@ html,body {
     padding-left: 10px;
 }
 
+.pic-gallery {
+    padding-top: 25px;
+}
+
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
@@ -99,10 +103,6 @@ html,body {
     margin-bottom: 0px;
 }
 
-.panel-heading {
-    background-color: green;
-}
-
 .weather-panel {
     background-color: #DDDDDD;
     text-align: center;
@@ -112,6 +112,12 @@ html,body {
     color: black;
 }
 
-.pic-gallery {
-    padding-top: 25px;
+.weather-header>.panel-heading {
+    background-image: -webkit-linear-gradient(top,#90d5ee 0,#90d5ee 100%);
+    border: solid 1px #90d5ee;
+    color: black;
+}
+
+.weather-header {
+    border: solid 1px #90d5ee;
 }
