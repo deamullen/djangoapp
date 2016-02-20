@@ -1,0 +1,32 @@
+{% extends "andrea/base.html" %}
+
+{% block title %}
+Andrea - Around the World
+{% endblock %}
+
+{% block content %}
+
+<div class="col-xs-12 col-sm-6 col-md-8">
+		<h1>&#9992 Under Construction &#9992</h1>
+</div>
+
+
+<div class="col-xs-12 col-md-4">
+		<div class="panel-body weather-panel">
+				<h4>&#9729 Weather Around the World &#9729</h4>
+				{% for weather in weather_list %}
+				<div class="panel panel-info weather-header">
+			  		<div class="panel-heading">
+			    			<h3 class="panel-title">{{ weather.city }}</h3>
+			  		</div>
+			  		<div class="panel-body">
+			  				{{ weather.description|safe }}
+								<p>{{ weather.temp }}&#176 F</p>
+								<p>{{ weather.condition }}</p><br>
+								<p class="small-print">Last updated: {{ weather.date }}</p>
+			  		</div>
+				</div>
+				{% endfor %}
+  	</div>
+</div>
+{% endblock %}

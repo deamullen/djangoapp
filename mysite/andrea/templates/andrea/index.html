@@ -1,0 +1,74 @@
+{% extends "andrea/base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+Andrea - Home
+{% endblock %}
+
+{% block content %}
+<div class="col-xs-12 col-sm-6 col-md-8">
+		<h1>About me</h1>
+		<p>Hi! My name is Andrea. I was born and raised in Brazil, but I currently live in Honolulu, HI. In between my time in Brazil and Hawaii, I have also lived in London, Chicago, and Milwaukee.</p>
+		<br>
+		<p>In December of 2014, I graduated from <a href="https://manoa.hawaii.edu/">the University of Hawai'i at Manoa</a> with a Bachelor of Science in <a href="http://www.ics.hawaii.edu/">Computer Science</a>. I currently work as a Software Developer for a local company. I love what I do, and I am very thankful I get to build cool things every day.
+		</p>
+		<br>
+		<br>
+		<h1>My Proud(est) Moments</h1>
+		<ol>
+				<li>Spending two years in London by myself while pursuing my dream of learning to speak English.</li>
+				<li>Becoming a United States Citizen.</li>
+				<li>Spending over a decade FAR away from home. Don't get me wrong, I do miss home.</li>
+		</ol>
+</div>
+
+<section data-featherlight-gallery data-featherlight-filter="a">
+<div class="col-xs-12 col-md-4 pic-gallery">
+		<div class="row">
+			<div class="col-xs-6 pic-grid">
+				<a class="gallery" href="{% static 'andrea/images/DSC_3373.JPG' %}" >
+						<img src="{% static 'andrea/images/DSC_3373.JPG' %}" class="img-rounded img-responsive" >
+				</a>
+			</div>
+			<div class="col-xs-6 pic-grid">
+				<a class="gallery" href="{% static 'andrea/images/DSC_2694.JPG' %}" > 
+					<img src="{% static 'andrea/images/DSC_2694.JPG' %}" class="img-rounded img-responsive">
+				</a>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-xs-6 pic-grid">
+				<a class="gallery" href="{% static 'andrea/images/DSC_3702.JPG' %}" >
+				<img src="{% static 'andrea/images/DSC_3702.JPG' %}" class="img-rounded img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-6 pic-grid">
+				<a class="gallery" href="{% static 'andrea/images/DSC_3732.JPG' %}" >
+				<img src="{% static 'andrea/images/DSC_3732.JPG' %}" class="img-rounded img-responsive">
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6 pic-grid">
+				<a class="gallery" href="{% static 'andrea/images/DSC_1686.JPG' %}" >
+				<img src="{% static 'andrea/images/DSC_1686.JPG' %}" class="img-rounded img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-6 pic-grid">
+				<a class="gallery" href="{% static 'andrea/images/DSC_3791.JPG' %}" >
+				<img src="{% static 'andrea/images/DSC_3791.JPG' %}" class="img-rounded img-responsive">
+				</a>
+			</div>
+		</div>
+</div>
+</section>
+
+{% endblock %}
+
+
+
+
+
+
+
+
