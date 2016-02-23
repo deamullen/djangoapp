@@ -20,10 +20,8 @@ def world(request):
     return render(request, 'andrea/around-the-world.html', {'weather_list' : get_weather_list()})
 
 
-class ResultsView(generic.DetailView):
-    model = Question
-    template_name = 'andrea/results.html'
-
+def contact(request):
+    return render(request, 'andrea/contact.html')
 
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)

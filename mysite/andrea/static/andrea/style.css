@@ -58,19 +58,22 @@ body {
 
 html,body {
 	height:100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .footer {
-    margin-top: 100px;
+    position: absolute;
     margin-right: 0px;
     margin-left: 0px;
+    margin-top: 30px;
     color: #3c3c3c;
     text-align: center;
-    left: 0;
-    right: 0;
+    bottom: 0px;
     line-height: 50px;
     border-top: solid 1px #101010;
     background-color: #90d5ee;
+    width: 100%
 } 
 
 .footer-text {
@@ -120,4 +123,21 @@ html,body {
 
 .weather-header {
     border: solid 1px #90d5ee;
+}
+
+.glyphicon-envelope {
+    font-size: 50px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#content-div {
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 100px;
 }

@@ -1,0 +1,30 @@
+{% extends "andrea/base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+Andrea - Contact Me
+{% endblock %}
+
+{% block content %}
+<div class="col-xs-12 col-sm-6 col-md-8">
+<h1>Contact Me</h1>
+<br>
+<div>
+	<span class="glyphicon glyphicon-envelope"></span>
+	&nbsp;&nbsp;
+	<a href="mailto:deamullen@gmail.com" class="glyph-text">deamullen@gmail.com</a>
+</div>
+<br>
+<div>
+	<img src="{% static 'andrea/images/In-White-54px-R.png' %}">
+	<a href="https://www.linkedin.com/in/andreaakiko" class="glyph-text">https://www.linkedin.com/in/andreaakiko</a>
+</div>
+<br>
+<div>
+	<i class="fa fa-github fa-4x"></i>
+	&nbsp;&nbsp;
+	<a href="https://github.com/deamullen">https://github.com/deamullen</a>
+</div>
+
+</div>
+{% endblock %}
